@@ -20,7 +20,7 @@ BOOST_STATIC_LINK = False
 PYTHON_HOME = None
 V8_HOME = None
 V8_SVN_URL = "http://v8.googlecode.com/svn/trunk/"
-V8_SVN_REVISION = "9730"
+V8_SVN_REVISION = 9730
 
 INCLUDE = None
 LIB = None
