@@ -243,7 +243,7 @@ elif is_osx: # contribute by progrium and alec
         V8_HOME,
     ]
 
-    libraries += ["boost_python-mt", v8_lib]
+    libraries += [boost_lib, v8_lib]
 
     is_64bit = math.trunc(math.ceil(math.log(sys.maxint, 2)) + 1) == 64 # contribute by viy
 
